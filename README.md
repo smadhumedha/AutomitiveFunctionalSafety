@@ -1,1 +1,1 @@
-# AutomitiveFunctionalSafety
+# AutomotiveFunctionalSafety
