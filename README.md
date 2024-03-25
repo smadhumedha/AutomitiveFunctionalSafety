@@ -15,7 +15,7 @@
 
   <h2>Implementation</h2>
   <ol>
-    <li><strong>Clock Monitor:</strong> The clock monitor generates a similar signal to the main signal and compares it with the possibly erroneous clock using a counter approach. Rise edge detection and count accumulation are performed, and upon comparison of values when the checker clock signal rises, an error flag is raised.</li>
+    <li><strong>Clock Monitor:</strong> The clock monitor generates a similar signal to that of the main signal and compares it with the possibly erroneous clock using a counter approach. Rise edge detection and count accumulation are performed, and upon comparison of values when the checker clock signal rises, an error flag is raised.</li>
     <li><strong>BIST:</strong> Built-In Self-Test (BIST) instructions are stored within the system, which checks for flaws in the ALU upon system power-up. The BIST instructions are executed, and the output signature is compared with a pre-stored golden signature. Any discrepancies lead to an error flag being raised.</li>
     <li><strong>PPMU:</strong> The Performance Monitoring Unit (PPMU) plays a pivotal role in reporting DMA activities, BIST results, and clock monitoring data in automotive chip design. Its capability to provide insights into instruction execution times contributes significantly to performance analysis, ensuring a comprehensive approach to functional safety.</li>
   </ol>
